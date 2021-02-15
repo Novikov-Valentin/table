@@ -1,0 +1,63 @@
+.
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Анкета web-разработчика</title>
+</head>
+
+<body>
+  <header>
+    <h1>Анкета web-разработчика</h1>
+  </header>
+  <main>
+    <form>
+      <table border="1">
+        <tr>
+          <td>Регистрационное имя</td>
+          <td><input type="text" name="name" size=”15” maxlength=”20” value=""><br></td>
+        </tr>
+        <tr>
+          <td>Пароль</td>
+          <td><input type="text" name="name" size=”15” maxlength=”20” value=""><br></td>
+        </tr>
+        <tr>
+          <td>Ваша специализация</td>
+          <td>
+            <select name="spisok1" size="1">
+              <option value="spec1">Web-мастер</option>
+              <option value="spec2">Softwave-developer</option>
+              <option value="spec2">QA-engineer</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Пол</td>
+          <td><input type="radio" name="answer" value="a1">муж. <input type="radio" name="answer" value="a2">жен.<Br>
+          </td>
+        </tr>
+        <tr>
+          <td>Ваши навыки</td>
+          <td>
+            <input type="checkbox" id="check1"><label for="check1">знание HTML и CSS</label>
+            <p><input type="checkbox" id="check1"><label for="check1">знание Perl</label>
+            <p><input type="checkbox" id="check1"><label for="check1">знание ASP</label>
+            <p><input type="checkbox" id="check1"><label for="check1">знание Adobe Photoshop</label>
+            <p><input type="checkbox" id="check1"><label for="check1">знание JAVA</label>
+            <p><input type="checkbox" id="check1"><label for="check1">знание Javascript</label>
+            <p><input type="checkbox" id="check1"><label for="check1">знание Flash</label>
+          </td>
+        </tr>
+        <td>Дополнительные сведения о себе</td>
+        <td>
+          <textarea name="area" cols=”25” rows=”5” wrap=”on”></textarea>
+        </td>
+      </table>
+      <input type="submit" name="рега" value="зарегестрировать">
+      <input type="reset" name="клир" value="очистить форму">
+    </form>
+  </main>
+</body>
+
+</html>
